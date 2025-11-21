@@ -1,10 +1,13 @@
+
 import { CardProfile } from './types';
+// @ts-ignore
+import LOCAL_AVATAR from './assets/avatar.webp';
 
 export const PROFILE_DATA: CardProfile = {
   handle: 'Kim Dabit',
   title: 'Software Developer',
-  // Using a professional, tech-focused avatar placeholder
-  avatarUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&h=200&auto=format&fit=crop',
+  // Now using the local asset instead of an external Unsplash URL
+  avatarUrl: LOCAL_AVATAR,
   status: 'analyzing',
   links: [
     {
